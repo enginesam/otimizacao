@@ -1,10 +1,9 @@
-
-# interavalo [a,b]
+# intervalo [a,b]
 a = 1 
 b = 10
 
 n=1
-eps = 0.2 # intervalo de incerteza
+eps = 0.1 # intervalo de incerteza
 
 def f(x):
     return x**4-2*x**2-4*x+3
